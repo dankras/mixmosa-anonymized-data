@@ -1,0 +1,5 @@
+# PyCharm
+.idea/*
+
+# macOS
+.DS_Store
