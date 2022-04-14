@@ -1,4 +1,4 @@
-# Data from Mixmosa Speed Dating Events
+# Data from 2,961 In-Person Dates
 
 ## Context
 Mixmosa was a dating service that organized 2,961 in-person dates. For each date, it observed:
@@ -19,6 +19,8 @@ The dataset is available in two formats:
  There are two tables I'd recommend you start with:
  1. `user_features` describes the participants: age, gender, sexual orientation, IQ, personality, physical attractiveness, etc.
  2. `interactions` describes the outcomes of each date: did the male like the female? did the female like the male? 
+ 
+ Data was collected by running in-person speed dating events. Each date lasted 8 minutes.
  
  ## Tables
  1. `users`: people that created an account in the Mixmosa app
