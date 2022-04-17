@@ -40,6 +40,7 @@ The dataset is available in two formats:
  8. `picture_ratings`: users photos were scored on physical attractiveness by the opposite sex on a 1 - 10 scale, with 1 being least attractive, 5 being average, and 10 being most attractive. Independent raters were used (Mixmosa users did not rate other Mixmosa users).
  
  9. `user_features`: derived table that aggregates all user attributes (e.g. the user's average physical attractiveness score from `picture_ratings`, their IQ score given their `responses` to intelligence `questions`, their neuroticism score given their `responses` to Big 5 `questions`).
+    * features include: age, gender, attracted_to, iq_share_correct, agreeableness, conscientiousness, extraversion, neuroticism, openness, avg_physical_attractiveness_rating, height_inches, income_bucket, nicotine_score, alcohol_score, marijuana_score, has_used_psychedelics, behavioral_health_score, sex_partners_score, get_along_well_with_family_score, political_tolerance_score, ethnicity_importance_score, religion_importance_score, politics_importance_score, num_children_wanted_score, already_has_kids, casual_sex_score, hard_work_and_success_belief_score
  
  10. `interactions`: each row represents a date. derived from `swiping`. contains date outcomes (e.g. did the man like the woman? did the woman like the man?).
  
